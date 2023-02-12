@@ -11,7 +11,9 @@ Integrated payment gateway: The application integrates the Razorpay payment gate
 
 ## Requirements
 PHP 5.6 or higher
+
 MySQL 5.6 or higher
+
 Web Server (Apache)
 
 ## Getting Started
