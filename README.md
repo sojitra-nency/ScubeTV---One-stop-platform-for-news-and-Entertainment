@@ -3,13 +3,13 @@ This project is a PHP-based web application that provides a comprehensive platfo
 The application is designed to cater to the diverse needs of users, offering a wide range of news updates, magazines, movie and TV show trailers, and full movies and TV shows.
 
 ## Key Features
-#### Wide range of news updates: 
+### Wide range of news updates: 
 The application provides a wide range of news updates to keep users informed and up-to-date with the latest happenings.
 
-#### Premium package for registered users: 
+### Premium package for registered users: 
 Registered users have access to a premium package that includes free access to magazines, movie and TV show trailers, and paid access to full movies and TV shows.
 
-#### Integrated payment gateway: 
+### Integrated payment gateway: 
 The application integrates the Razorpay payment gateway to facilitate easy and secure payments.
 
 ## Requirements
