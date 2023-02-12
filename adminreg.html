@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ADMIN:SIGN UP</title>
+
+<link rel="stylesheet" type="text/css" href="login.css">   
+</head>
+
+    
+
+    
+<script>
+function validate() {
+    var x = document.forms["signup"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+    
+    var y1=document.forms["signup"]["pass1"].value;
+    var y2=document.forms["signup"]["pass2"].value;
+    if(y1!=y2)
+    {
+        alert("Password Dont Match!!");
+        return false;
+    }
+}
+</script>
+    
+
+
+<body>
+
+    <div class="nav1">ADMIN:SIGN UP</div>
+    <div class="sign">
+
+        <form name="signup"  onsubmit="return validate();" action="admindb.php" method="post">
+            <fieldset>
+                <legend>ID Details</legend>
+                <table class="sign2">
+                    <tr>
+                        <td>Email ID</td>
+                        <td>
+                            <input type="email" name="email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="pass1" pattern=".{8,}"  required title="Minimum 8 length Required!!"> </td>
+                    </tr>
+
+                    <tr>
+                        <td>Re-Enter Password</td>
+                        <td>
+                            <input type="password" name="pass2" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+               <div class="sub">
+            <fieldset>
+                <legend>Completion</legend>
+                <p><input type="checkbox" name="checkbox" required>I agree Terms &amp; Conditions</p>
+                <span class="sub2"><input type="submit" name="submit" value="Submit!"></span>
+                <p style="text-align:right;"><a href="admin.php">Already ADMIN?</a><a href="index.php">|&nbsp;&nbsp;&nbsp;Home</a></p>
+            </fieldset>
+            </div>
+        </form>
+
+    </div>
+    
+    
+    </body>
+
+</html>

@@ -1,0 +1,145 @@
+@import url('fonts.css');
+
+body,html{
+    height:100%;
+    width: 100%;
+    margin:0;
+    background-color: #2B2B2B;
+    
+}
+
+.mainmain{
+    width:100%;
+    height: auto;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+table{
+    border:none;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    display: table;
+    align-content: center;
+    background-color: white;
+    justify-content: center;
+    border-collapse: collapse;
+
+}
+
+tr{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+}
+
+th{
+    width:30%;
+    height: 30px;
+    background-color: #2980B9;
+    color:white;
+    font-weight: bolder;
+}
+
+input{
+    width:95%;
+    height: 100%;
+    border:0.2px solid darkblue;
+}
+
+.mainmain input[type=submit]
+{
+    width:99%;
+    height: 110%;
+	background-color:#44c767;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	text-decoration:none;
+    font-weight: bolder;
+	text-shadow:0px 1px 0px #2f6627;
+    
+}
+
+
+.mainmain input[type=submit]:hover{
+    background-color:darkgreen;
+    transition: 1s;
+}
+
+h1{
+    margin:0;
+    
+}
+
+td{
+    border:none;
+    background-color: #F6F6F6;
+}
+
+
+
+.maindiv{
+    font-family: esp;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:90%;
+    padding-right: 10%;
+    height:15%;
+    font-size: 26px;
+    background-color:black;
+    color:white;
+}
+
+.nav{
+    width:90%;
+    height: 10%;
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a {
+    color:red;
+    text-decoration: none;
+}
+
+.logout input[type=submit] {
+    width: 10vw;
+    height: 30px;
+    border-radius: 6px;
+    background-color: lightcoral;
+    border: 1px solid white;
+
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.logout input[type=submit]:hover {
+    background-color: firebrick;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+
+.lmain{
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
