@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>SIGN UP</title>
+
+<link rel="stylesheet" type="text/css" href="login.css">   
+</head>
+
+    
+
+    
+<script>
+function validate() {
+    var x = document.forms["signup"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+    
+    var y1=document.forms["signup"]["pass1"].value;
+    var y2=document.forms["signup"]["pass2"].value;
+    if(y1!=y2)
+    {
+        alert("Password Dont Match!!");
+        return false;
+    }
+    
+     var fname=document.forms["signup"]["fname"].value;
+    if(/\d/.test(fname))
+        {
+            alert("First Name Contains Digits!!");
+            return false;
+        }
+    
+     var lname=document.forms["signup"]["lname"].value;
+    if(/\d/.test(lname))
+        {
+            alert("Last Name Contains Digits!!");
+            return false;
+        }
+    
+     var nation1=document.forms["signup"]["nationality"].value;
+    if(/\d/.test(nation1))
+        {
+            alert("Nation Contains Digits!!");
+            return false;
+        }
+    
+}
+    
+    
+</script>
+    
+
+
+<body>
+
+    <div class="nav1">SIGN UP</div>
+    <div class="sign">
+
+        <form name="signup"  onsubmit="return validate();" action="db.php" method="post">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" name="fname" required>
+                        </td>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" name="lname" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>DOB</td>
+                        <td>
+                            <input type="date" name="dob" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Contact</td>
+                        <td>
+                            <input type="number" name="contact" min="1000000000" max="9999999999"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Nationality</td>
+                        <td>
+                            <input type="text" name="nationality" required></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            
+            <br>
+            <fieldset>
+                <legend>ID Details</legend>
+                <table class="sign2">
+                    <tr>
+                        <td>Email ID</td>
+                        <td>
+                            <input type="email" name="email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="pass1" pattern=".{8,}"  required title="Minimum 8 length Required!!"> </td>
+                    </tr>
+
+                    <tr>
+                        <td>Re-Enter Password</td>
+                        <td>
+                            <input type="password" name="pass2" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+               <div class="sub">
+            <fieldset>
+                <legend>Completion</legend>
+                <p><input type="checkbox" name="checkbox" required>I agree Terms &amp; Conditions</p>
+                <span class="sub2"><input type="submit" name="submit" value="Submit!"></span>
+                <p style="text-align:right;"><a href="login.php">Already User?</a><a href="index.php">|&nbsp;&nbsp;&nbsp;Home</a></p>
+            </fieldset>
+            </div>
+        </form>
+
+    </div>
+    
+    
+    </body>
+
+</html>
