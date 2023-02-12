@@ -1,0 +1,298 @@
+@import url("fonts.css");
+ 
+
+.nav1 {
+    width: 100%;
+    height: 10%; 
+    z-index: 1;
+    background-color: darkred;
+    display: inline-flex;
+    vertical-align: bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body,
+html {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    min-width: 1346px;
+    height: 100%;
+    font-size: 0;
+}
+
+.opt1 {
+    width: 100%;
+    height: 5%;
+    background-color: indianred;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.marq {
+    width: 100%;
+    height: 5%;
+    background-color: firebrick;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    display: inline;
+    width: 100%;
+}
+
+#topnews {
+    margin: 0.7%;
+    width: 60%;
+    height: 79%;
+    margin-right: 0;
+    display: inline-block;
+    background-image: url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#topnewsdiv {
+    height: 79%;
+    width: 38%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    vertical-align: top;
+    margin: 0.7%;
+    margin-right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#topnews2 {
+    width: 100%;
+    margin: 0;
+    height: 60%;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#topnav ul {
+    list-style: none;
+    width: 100%;
+}
+
+#topnav {
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    font-size: 2.6vh;
+    background: #7D0126;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#topnav li:hover {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 3vh;
+    transition: .5s;
+    font-style: italic;
+}
+
+
+
+footer {
+    width: 95%;
+    height: 4%;
+    background-color: black;
+    font-size: 2.8vh;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 5%;
+    color: white;
+}
+
+.logo1 {
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 9vh;
+    color: white;
+    display: inline-block;
+}
+
+.logo0 {
+    width: 10%;
+    height: 100%;
+    padding-left: 10px;
+    display: inline-block;
+    background-image: url(images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo2 {
+    font-weight: bolder;
+    font-size: 3vh;
+    width: 20%;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: right;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.opt1 li {
+    font-family: serif;
+    padding-top: 5px;
+    list-style: none;
+    display: inline-block;
+    width: 16%;
+    height: 75%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.opt1 li:hover {
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+}
+
+.marq li {
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    font-weight: 100;
+    float: none;
+}
+
+.high{
+    width:100%;
+    background-color: rgb(5, 5, 5);
+    height: auto;   
+    font-size: 40px;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hsports{
+    width:98%;
+    height:60vh;
+    margin:0.5%;
+    font-size: 20px;
+    border:2px solid white;
+    background-image: url(images/home/sport.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+
+.hweather{
+    width:98%;
+    height:60vh;
+    margin:0.5%;
+    border:2px solid white;
+    background-image: url(images/home/weather.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.htv{
+    width:98%;
+    height:60vh;
+    margin:0.5%;
+    border:2px solid rgb(250, 247, 247);
+    background-image: url(images/home/tv.jpg);
+    background-position: center 100px;
+    background-size: cover;
+    color: rgb(5, 5, 5);
+}
+
+.htech {
+    width: 97%;
+    height: 60vh;
+    margin: 0.5%;
+    border: 2px solid white;
+    background-image: url(images/home/tech.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hprem{
+    width:98%;
+    height:60vh;
+    margin:0.5%;
+    border:2px solid white;
+    background-image: url(images/home/prem.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.fonthigh{
+    font-size: 30px;
+    margin:5%;
+    width: 80%;
+    height: 80%;
+    font-family:esp;
+}
+
+.hsports:hover{
+    background-image: url(images/home/sport3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.hweather:hover{
+    background-image: url(images/home/weather2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.htv:hover{
+    background-image: url(images/home/tv2.jpg);
+    background-position: center;
+    background-size: cover;
+     transition: 1s;
+    color:rgb(7, 7, 7);
+}
+
+.htech:hover{
+    background-image: url(images/home/tech2.jpg);
+    background-position: center;
+    background-size: cover;
+     transition: 1s;
+}
+
+.hprem:hover{
+   
+    background-image: url(images/home/prem2.jpg);
+    background-position: center;
+    background-size: cover;
+     transition: 1s;
+    color:black;   
+}
+
