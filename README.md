@@ -9,16 +9,17 @@ Premium package for registered users: Registered users have access to a premium 
 
 Integrated payment gateway: The application integrates the Razorpay payment gateway to facilitate easy and secure payments.
 
-Requirements
+## Requirements
 PHP 5.6 or higher
 MySQL 5.6 or higher
-Web Server (Apache or Nginx)
-Getting Started
+Web Server (Apache)
+
+## Getting Started
 To get started with this project, you need to set up a local development environment with PHP and MySQL installed. You can then clone the repository and run the application on your local web server.
 
 Please follow the instructions in the INSTALLATION.md file for detailed instructions on how to install and set up the application.
 
-Contributing
+## Contributing
 This project is open source and contributions are welcome. If you have any suggestions or ideas for improvements, feel free to open an issue or submit a pull request.
 
 
