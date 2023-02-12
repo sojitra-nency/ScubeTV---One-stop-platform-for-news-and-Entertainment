@@ -1,0 +1,174 @@
+body ,html{
+    min-width: 1346px;
+    margin: 0;
+    width: 100%;
+    min-height:658px;
+    background-image:url(images/1.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+}
+
+.nav1 {
+    width: 100%;
+    height: 10%;
+    font-size: 50px;
+    font-family: fantasy;
+    background-color: darkred;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 100px;
+    padding-top:4px;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+
+.log{
+    margin-left:25%;
+    margin-top:10%;
+    width: 50%;
+    height:35%;
+    border:2px solid black;
+    background-color:brown;
+    color:white;
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    box-shadow:  5px 5px 10px black;
+    
+}
+
+
+.log2{
+    margin-left:25%;
+    margin-top:10%;
+    width: 50%;
+    height:35%;
+    border:2px solid black;
+    background-color:brown;
+    color:white;
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    box-shadow:  5px 5px 10px black;
+    
+}
+
+
+.log input{
+    border:1px solid darkred;
+    height:18px;
+}
+
+.log a{
+    
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    padding-right:10px;
+}
+
+.log td{
+    width:150px;
+}
+
+
+.log2 input{
+    border:1px solid darkred;
+    height:18px;
+}
+
+.log2 a{
+    
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    font-size: 14px;
+    padding-right:10px;
+}
+
+.log2 td{
+    width: 150px;
+}
+
+
+.sub input{
+    font-weight: bold;
+    height:30px;
+    width: 100px;
+    color:white;
+    border:1px solid white;
+    background-color: brown;
+}
+
+
+
+.sign{
+    margin-left:20%;
+    margin-top:1%;
+    width: 60%;
+    height:85%;
+    border:2px solid white;
+    background-color:bisque;
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+    color:firebrick;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    box-shadow:  5px 5px 10px black;
+}
+
+.sign td{
+    width:120px;
+}
+
+.sign input{
+    width:175px;
+    height:18px;
+    border:1px solid brown;
+}
+
+.sign2 input{
+    width:250px;
+    border:1px solid brown;
+}
+
+.sign2 td{
+    width:200px;
+}
+
+.sign fieldset{
+    border:2px solid black;;  
+}
+
+legend{
+    text-align: left;
+    color:white;
+    background-color:black;
+    width:150px;
+    padding-left: 10px;
+}
+
+.sub2 input{
+    height:40px;
+    font-weight: bolder;
+}
+
+
+.sub a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    text-align: right;
+   padding-right:10px;
+}
+
+
