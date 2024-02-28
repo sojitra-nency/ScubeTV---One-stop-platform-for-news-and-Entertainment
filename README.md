@@ -1,4 +1,4 @@
-# ScubeTV
+# ScubeTV - One stop solution for news and Entertainment.
 This project is a PHP-based web application that provides a comprehensive platform for all news and entertainment needs. 
 The application is designed to cater to the diverse needs of users, offering a wide range of news updates, magazines, movie and TV show trailers, and full movies and TV shows.
 
